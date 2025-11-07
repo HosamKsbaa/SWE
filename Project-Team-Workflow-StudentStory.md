@@ -47,7 +47,28 @@ Ali creates two GitHub repos:
 - `student-portal-frontend`
 - `student-portal-backend`
 
+
 He invites everyone. Mona says, "Let’s make a branch for each feature!"
+
+## Step 4.5: How We Work Together (Git Flow & Jira)
+
+Sara explains, "Let’s use a simple flow so we don’t get lost!"
+
+**Jira Workflow:**
+- Every task starts in "To Do".
+- When you start working, move it to "In Progress".
+- When you finish your code and open a Pull Request, move it to "In Review".
+- After review and testing, move it to "Done".
+
+**Git Flow:**
+- Always start a new branch for each feature or fix. Name it like `feature/short-description` or `fix/short-description`.
+- When your code is ready, push your branch and open a Pull Request (PR) to `main` (or `develop` if your teacher says so).
+- Ask a teammate to review your PR. Fix anything they suggest.
+- When everyone is happy, merge your PR. Now your code is part of the project!
+
+Ali says, "So, every new thing we build gets its own branch and its own card in Jira!"
+Mona adds, "And we never work directly on `main`—that keeps things safe."
+Sara smiles, "And we always know what’s left by looking at the board."
 
 ## Step 5: Working on Features
 
